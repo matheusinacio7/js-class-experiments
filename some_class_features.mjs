@@ -45,6 +45,9 @@ console.log('Tamanho de CENOURA antes de crescer:', cenoura.size);
 cenoura.grow();
 console.log('Tamanho de CENOURA depois de crescer:', cenoura.size);
 
+// cenoura.size = 'ugabuga'; // throws error because size only has a getter
+// console.log(cenoura.size);
+
 const batata = new Potato();
 console.log('Tamanho de BATATA antes de crescer:', batata.size);
 batata.grow();
